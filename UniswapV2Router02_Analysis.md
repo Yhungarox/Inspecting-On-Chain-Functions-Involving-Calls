@@ -33,7 +33,7 @@ Used Encoding/Decoding or Call Method: `call`
 # Explanation
 
 ## Purpose:
-The swapExactTokensForTokens function allows users to swap an exact amount of input tokens for a minimum amount of output tokens along a specific path. It is part of the Uniswap V2 Router contract, which facilitates token swaps on the Uniswap decentralized exchange.
+The `swapExactTokensForTokens` function allows users to swap an exact amount of input tokens for a minimum amount of output tokens along a specific path. It is part of the Uniswap V2 Router contract, which facilitates token swaps on the Uniswap decentralized exchange.
 
 ## Detailed Usage:
 The `call` method is used within the helper functions such as `TransferHelper.safeTransferFrom`. This method executes low-level calls to transfer tokens from the user to the Uniswap pair contract. The `call` function in Solidity is a low-level function to interact with other contracts. It is used here to ensure that tokens are transferred properly by directly interacting with the token contract's `transferFrom` method.
