@@ -28,7 +28,7 @@ function swapExactTokensForTokens(
 }
 ```
 
-Used Encoding/Decoding or Call Method: `call`
+Used Encoding/Decoding or Call Method: `call`, `abi.encodeWithSelector`, `abi.decode`
 
 # Explanation
 
