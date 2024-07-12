@@ -26,5 +26,6 @@ function swapExactTokensForTokens(
     );
     _swap(amounts, path, to);
 }
+```
 
 Used Encoding/Decoding or Call Method: `call`
